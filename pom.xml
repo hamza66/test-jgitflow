@@ -25,15 +25,7 @@
 
     <build>
         <plugins>
-            <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-release-plugin</artifactId>-->
-            <!--<version>2.3.2</version>-->
-            <!--<configuration>-->
-            <!--<localCheckout>true</localCheckout>-->
-            <!--&lt;!&ndash;<tagNameFormat>v@{project.version}</tagNameFormat>&ndash;&gt;-->
-            <!--</configuration>-->
-            <!--</plugin>-->
+
             <plugin>
                 <groupId>external.atlassian.jgitflow</groupId>
                 <artifactId>jgitflow-maven-plugin</artifactId>
