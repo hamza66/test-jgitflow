@@ -36,6 +36,7 @@
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <!--<versionTagPrefix>blither-</versionTagPrefix>-->
+                        <versionTagPrefix>v-</versionTagPrefix>
                         <noDeploy>true</noDeploy>
                         <useReleaseProfile>false</useReleaseProfile>
                         <pushReleases>true</pushReleases>
