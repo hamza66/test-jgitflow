@@ -4,5 +4,5 @@
 public class Main {
 
     private static final String S="1";
-    private static final String SD"1";
+    private static final String SD="1";
 }
