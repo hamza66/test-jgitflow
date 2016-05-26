@@ -6,6 +6,7 @@
     <artifactId>test-jgitflow</artifactId>
     <version>1.0</version>
 
+
     <scm>
         <connection>scm:git:https://github.com/hamza66/test-jgitflow.git</connection>
     </scm>
@@ -27,7 +28,7 @@
             <plugin>
                 <groupId>external.atlassian.jgitflow</groupId>
                 <artifactId>jgitflow-maven-plugin</artifactId>
-                <version>1.0-m5.1</version>
+                <version>1.0-m1</version>
                 <configuration>
                     <flowInitContext>
                         <masterBranchName>master</masterBranchName>
@@ -36,7 +37,12 @@
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <!--<versionTagPrefix>blither-</versionTagPrefix>-->
+                        <versionTagPrefix>v-</versionTagPrefix>
                     </flowInitContext>
+                    <noDeploy>true</noDeploy>
+                    <useReleaseProfile>false</useReleaseProfile>
+                    <pushReleases>true</pushReleases>
+                    <keepBranch>false</keepBranch>
                     <!-- see goals wiki page for configuration options -->
                 </configuration>
             </plugin>
